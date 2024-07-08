@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-orange-50;
+  }
+  .menu {
+    @apply flex justify-between mx-10 my-5 items-center w-[120] md:h-auto md:w-auto;
+  }
+  .logo {
+    @apply md:w-auto w-32;
+  }
+
+  .section-1 {
+    @apply text-center mt-20 w-2/3 mx-auto;
+  }
+  .motto {
+    @apply md:text-4xl text-2xl font-semibold;
+  }
+  .deskripsi {
+    @apply md:text-2xl mt-3 font-thin;
+  }
+  .img-galeri {
+    @apply rounded-lg h-full w-full object-cover;
+  }
+}
